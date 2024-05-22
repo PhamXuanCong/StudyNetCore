@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5pY/DGdkSiQ=",
+  "dgSpecHash": "dYjGz2IYhOg=",
   "success": true,
-  "projectFilePath": "D:\\TaiLieuLT\\AspNet\\NWZWalks\\NWZWalks.Api\\NWZWalks.Api.csproj",
+  "projectFilePath": "D:\\TaiLieuLT\\AspNet\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\NWZWalks.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TaiLieuLT\\AspNet\\NWZWalks\\NWZWalks.Api\\NWZWalks.Api.csproj": {}
+    "D:\\TaiLieuLT\\AspNet\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\NWZWalks.Api.csproj": {}
   },
   "projects": {
-    "D:\\TaiLieuLT\\AspNet\\NWZWalks\\NWZWalks.Api\\NWZWalks.Api.csproj": {
+    "D:\\TaiLieuLT\\AspNet\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\NWZWalks.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TaiLieuLT\\AspNet\\NWZWalks\\NWZWalks.Api\\NWZWalks.Api.csproj",
+        "projectUniqueName": "D:\\TaiLieuLT\\AspNet\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\NWZWalks.Api.csproj",
         "projectName": "NWZWalks.Api",
-        "projectPath": "D:\\TaiLieuLT\\AspNet\\NWZWalks\\NWZWalks.Api\\NWZWalks.Api.csproj",
+        "projectPath": "D:\\TaiLieuLT\\AspNet\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\NWZWalks.Api.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\TaiLieuLT\\AspNet\\NWZWalks\\NWZWalks.Api\\obj\\",
+        "outputPath": "D:\\TaiLieuLT\\AspNet\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
