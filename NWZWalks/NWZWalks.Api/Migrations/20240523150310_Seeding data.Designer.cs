@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NWZWalks.Api.Data;
 
@@ -11,9 +12,11 @@ using NWZWalks.Api.Data;
 namespace NWZWalks.Api.Migrations
 {
     [DbContext(typeof(NZWalksDbContext))]
-    partial class NZWalksDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240523150310_Seeding data")]
+    partial class Seedingdata
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -51,6 +54,28 @@ namespace NWZWalks.Api.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Regions");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("73176b3b-effe-434b-861a-aa0e1f4b43b1"),
+                            Area = 0.0,
+                            Code = "1234",
+                            Lat = 0.0,
+                            Long = 0.0,
+                            Name = "Cong dep trai",
+                            Population = 0L
+                        },
+                        new
+                        {
+                            Id = new Guid("42d8f71c-f6c7-465e-8236-2677caff8988"),
+                            Area = 0.0,
+                            Code = "12345",
+                            Lat = 0.0,
+                            Long = 0.0,
+                            Name = "Cong dep trai",
+                            Population = 0L
+                        });
                 });
 
             modelBuilder.Entity("NWZWalks.Api.Models.Domain.Walk", b =>
@@ -79,16 +104,6 @@ namespace NWZWalks.Api.Migrations
                     b.HasIndex("WalkDifficultyId");
 
                     b.ToTable("Walks");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("98381b5d-2d66-444b-993c-fb45ac2a8fc6"),
-                            Length = 20.0,
-                            Name = "CC",
-                            RegionId = new Guid("9d93f2a3-6444-4d06-8ffd-09a4cf649142"),
-                            WalkDifficultyId = new Guid("a9c59452-c42d-4200-b509-88cd296220e5")
-                        });
                 });
 
             modelBuilder.Entity("NWZWalks.Api.Models.Domain.WalkDifficulty", b =>

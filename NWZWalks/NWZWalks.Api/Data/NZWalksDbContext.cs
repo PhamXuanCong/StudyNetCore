@@ -3,16 +3,53 @@ using NWZWalks.Api.Models.Domain;
 
 namespace NWZWalks.Api.Data
 {
-    public class NZWalksDbContext :DbContext
+    public class NZWalksDbContext : DbContext
     {
         public NZWalksDbContext(DbContextOptions<NZWalksDbContext> options) : base(options)
         {
-            
+
         }
 
         public DbSet<WalkDifficulty> WalkDifficulty { get; set; }
 
-        public DbSet<Region>Regions { get; set; }
-        public DbSet<Walk>Walks { get; set; }
+        public DbSet<Region> Regions { get; set; }
+        public DbSet<Walk> Walks { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            //var regions = new List<Region>()
+            //{
+            //    new Region()
+            //    {
+            //        Id = Guid.Parse("73176b3b-effe-434b-861a-aa0e1f4b43b1"),
+            //        Name = "Cong dep trai",
+            //        Code = "1234"
+            //    },
+            //    new Region()
+            //    {
+            //        Id = Guid.Parse("42d8f71c-f6c7-465e-8236-2677caff8988"),
+            //        Name = "Cong dep trai",
+            //        Code = "12345"
+            //    },
+            //};
+
+            //modelBuilder.Entity<Region>().HasData(regions);
+
+            var walks = new List<Walk>()
+            {
+                new Walk()
+                {
+                    Id = Guid.Parse("98381b5d-2d66-444b-993c-fb45ac2a8fc6"),
+                    RegionId = Guid.Parse("9d93f2a3-6444-4d06-8ffd-09a4cf649142"),
+                    WalkDifficultyId = Guid.Parse("a9c59452-c42d-4200-b509-88cd296220e5"),
+                    Name = "CC",
+                    Length = 20
+                }
+            };
+
+            modelBuilder.Entity<Walk>().HasData(walks);
+        }
     }
 }
