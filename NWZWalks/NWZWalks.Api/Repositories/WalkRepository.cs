@@ -15,7 +15,7 @@ namespace NWZWalks.Api.Repositories
 
         public async Task<List<Walk>> GetAllAsync()
         {
-            var walks = await dbContext.Walks.ToListAsync();
+            var walks = await dbContext.Walks.Include("Region").Include("WalkDifficulty").ToListAsync();
 
             if(walks == null)
                 return null;

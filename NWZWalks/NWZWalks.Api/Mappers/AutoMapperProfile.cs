@@ -11,6 +11,7 @@ namespace NWZWalks.Api.Mappers
         {
             CreateMap<Walk, WalkDtos>().ReverseMap();
             CreateMap<Region, RegionDtos>().ReverseMap();
+            CreateMap<Walk, UpdateWalkDto>().ReverseMap();
             CreateMap<AddWalkDto, Walk>().ReverseMap();
 
         }

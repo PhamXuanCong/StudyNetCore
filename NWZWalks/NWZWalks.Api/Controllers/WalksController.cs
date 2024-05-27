@@ -42,14 +42,8 @@ namespace NWZWalks.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] AddWalkDto walkDto)
         {
-            var walkModel = new Walk()
-            {
-                Id = Guid.NewGuid(),
-                Name = walkDto.Name,
-                Length = walkDto.Length,
-                RegionId = walkDto.RegionId,
-                WalkDifficultyId = walkDto.WalkDifficultyId
-            };
+            
+            var walkModel = mapper.Map<Walk>(walkDto);
 
            var walkNew = await _iWalkRepository.Create(walkModel);
 
@@ -68,7 +62,7 @@ namespace NWZWalks.Api.Controllers
             var walkModel = mapper.Map<Walk>(walkDto);
             
 
-            var walk = _iWalkRepository.UpdateAsync(id, walkModel);
+            var walk =await _iWalkRepository.UpdateAsync(id, walkModel);
 
             return Ok(walk);
         }
@@ -77,7 +71,7 @@ namespace NWZWalks.Api.Controllers
         [Route("{id:guid}")]
         public async Task<IActionResult> Delete([FromRoute] Guid id)
         {
-            var walk = _iWalkRepository.DeleteAsync(id);
+            var walk =await _iWalkRepository.DeleteAsync(id);
 
             return  Ok(walk);
         }

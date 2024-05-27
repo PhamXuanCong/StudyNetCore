@@ -79,16 +79,6 @@ namespace NWZWalks.Api.Migrations
                     b.HasIndex("WalkDifficultyId");
 
                     b.ToTable("Walks");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("98381b5d-2d66-444b-993c-fb45ac2a8fc6"),
-                            Length = 20.0,
-                            Name = "CC",
-                            RegionId = new Guid("9d93f2a3-6444-4d06-8ffd-09a4cf649142"),
-                            WalkDifficultyId = new Guid("a9c59452-c42d-4200-b509-88cd296220e5")
-                        });
                 });
 
             modelBuilder.Entity("NWZWalks.Api.Models.Domain.WalkDifficulty", b =>
@@ -104,6 +94,18 @@ namespace NWZWalks.Api.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("WalkDifficulty");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("98381b5d-2d66-444b-993c-fb45ac2a8fc6"),
+                            Code = "123"
+                        },
+                        new
+                        {
+                            Id = new Guid("19dc39a1-6a28-4785-bf00-a045cf488f18"),
+                            Code = "1234"
+                        });
                 });
 
             modelBuilder.Entity("NWZWalks.Api.Models.Domain.Walk", b =>

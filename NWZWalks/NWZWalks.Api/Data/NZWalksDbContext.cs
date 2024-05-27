@@ -37,19 +37,21 @@ namespace NWZWalks.Api.Data
 
             //modelBuilder.Entity<Region>().HasData(regions);
 
-            var walks = new List<Walk>()
+            var walkDifficulties = new List<WalkDifficulty>()
             {
-                new Walk()
+                new WalkDifficulty()
                 {
                     Id = Guid.Parse("98381b5d-2d66-444b-993c-fb45ac2a8fc6"),
-                    RegionId = Guid.Parse("9d93f2a3-6444-4d06-8ffd-09a4cf649142"),
-                    WalkDifficultyId = Guid.Parse("a9c59452-c42d-4200-b509-88cd296220e5"),
-                    Name = "CC",
-                    Length = 20
+                    Code = "123"
+                },
+                new WalkDifficulty()
+                {
+                    Id = Guid.NewGuid(),
+                    Code = "1234"
                 }
             };
 
-            modelBuilder.Entity<Walk>().HasData(walks);
+            modelBuilder.Entity<WalkDifficulty>().HasData(walkDifficulties);
         }
     }
 }
