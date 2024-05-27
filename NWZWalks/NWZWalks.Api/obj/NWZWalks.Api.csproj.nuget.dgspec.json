@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TaiLieuLT\\AspNet\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\NWZWalks.Api.csproj": {}
+    "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\NWZWalks.Api.csproj": {}
   },
   "projects": {
-    "D:\\TaiLieuLT\\AspNet\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\NWZWalks.Api.csproj": {
+    "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\NWZWalks.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TaiLieuLT\\AspNet\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\NWZWalks.Api.csproj",
+        "projectUniqueName": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\NWZWalks.Api.csproj",
         "projectName": "NWZWalks.Api",
-        "projectPath": "D:\\TaiLieuLT\\AspNet\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\NWZWalks.Api.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\TaiLieuLT\\AspNet\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\obj\\",
+        "projectPath": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\NWZWalks.Api.csproj",
+        "packagesPath": "C:\\Users\\phamx\\.nuget\\packages\\",
+        "outputPath": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\phamx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -84,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
