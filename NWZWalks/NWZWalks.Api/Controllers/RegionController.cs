@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using NWZWalks.Api.CustomActionFilters;
 using NWZWalks.Api.Data;
 using NWZWalks.Api.Models.Domain;
 using NWZWalks.Api.Models.DTO;
@@ -14,7 +15,7 @@ namespace NWZWalks.Api.Controllers
     {
         private readonly IRegionRepository regionRepository;
 
-        public RegionController( IRegionRepository regionRepository)
+        public RegionController(IRegionRepository regionRepository)
         {
             this.regionRepository = regionRepository;
         }
@@ -64,15 +65,17 @@ namespace NWZWalks.Api.Controllers
         }
 
         [HttpPost]
+        [ValidateModelAtribute]
         public async Task<IActionResult> Post([FromBody] AddRegionDto regionDto)
         {
+
             var regionDomainModel = new Region()
             {
                 Code = regionDto.Code,
                 Name = regionDto.Name
             };
 
-            var region =await regionRepository.Create(regionDomainModel);
+            var region = await regionRepository.Create(regionDomainModel);
 
             if (region == null)
                 return NotFound();
@@ -98,7 +101,7 @@ namespace NWZWalks.Api.Controllers
                 Code = regionDto.Code,
             };
 
-            var regionDomainModel = await regionRepository.Update(id , region);
+            var regionDomainModel = await regionRepository.Update(id, region);
 
             if (regionDomainModel == null)
             {

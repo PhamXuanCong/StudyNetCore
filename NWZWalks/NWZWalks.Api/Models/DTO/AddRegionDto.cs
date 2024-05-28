@@ -7,7 +7,7 @@ namespace NWZWalks.Api.Models.DTO
         [Required]
         public string Code { get; set; }
         [Required]
-        [MinLength(6, ErrorMessage = "Length maximum 200"))]
+        [MinLength(6, ErrorMessage = "Length maximum 200")]
         [MaxLength(200, ErrorMessage = "Length maximum 200")]
         public string Name { get; set; }
     }
