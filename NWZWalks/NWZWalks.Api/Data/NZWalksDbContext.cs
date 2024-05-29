@@ -39,17 +39,17 @@ namespace NWZWalks.Api.Data
 
             var walkDifficulties = new List<WalkDifficulty>()
             {
-                new WalkDifficulty()
-                {
-                    Id = Guid.Parse("98381b5d-2d66-444b-993c-fb45ac2a8fc6"),
-                    Code = "123"
-                },
-                new WalkDifficulty()
+
+            };
+
+            for (int i = 0; i < 50; i++)
+            {
+                walkDifficulties.Add(new WalkDifficulty()
                 {
                     Id = Guid.NewGuid(),
-                    Code = "1234"
-                }
-            };
+                    Code = "codeName" + i.ToString()
+                });
+            }
 
             modelBuilder.Entity<WalkDifficulty>().HasData(walkDifficulties);
         }
