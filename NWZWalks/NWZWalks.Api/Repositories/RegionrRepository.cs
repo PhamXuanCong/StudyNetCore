@@ -24,15 +24,6 @@ namespace NWZWalks.Api.Repositories
             return region;
         }
 
-        public async Task<List<Region>> GetAllAsync()
-        {
-            var regions = await dbContext.Regions.ToListAsync();
-
-            if (regions == null)
-                return null;
-
-            return regions;
-        }
 
 
         public async Task<Region> Delete(Guid id)
@@ -48,6 +39,31 @@ namespace NWZWalks.Api.Repositories
             await dbContext.SaveChangesAsync();
 
             return region;
+        }
+
+        public async Task<List<Region>> GetAllAsync(string? filterOn, string? filterQuery, string? sortByOn, bool isAscending)
+        {
+            var regions =  dbContext.Regions.AsQueryable();
+
+            //filter
+            if (!string.IsNullOrWhiteSpace(filterOn) && !string.IsNullOrWhiteSpace(filterQuery))
+            {
+                if (filterOn.Equals("Name", StringComparison.OrdinalIgnoreCase))
+                {
+                    regions = regions.Where(x => x.Name.Contains(filterQuery));
+                }
+            }
+
+            //Sort
+            if (!string.IsNullOrWhiteSpace(sortByOn))
+            {
+                if (sortByOn.Equals("Name", StringComparison.OrdinalIgnoreCase))
+                {
+                    regions = isAscending ? regions.OrderBy(x => x.Name) : regions.OrderByDescending(x => x.Name);
+                }
+            }
+
+            return await regions.ToListAsync();
         }
 
         public async Task<Region> GetById(Guid id)

@@ -20,9 +20,9 @@ namespace NWZWalks.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] string? filterOn, [FromQuery] string? filterQuerry, [FromQuery] string? sortBy, [FromQuery] bool isAscending, [FromQuery] int pageIndex, [FromQuery] int pageSize)
         {
-            var walks =await _iWalkRepository.GetAllAsync();
+            var walks =await _iWalkRepository.GetAllAsync(filterOn, filterQuerry, sortBy, isAscending, pageIndex, pageSize);
             var walksdto = mapper.Map<List<WalkDtos>>(walks);
 
             return Ok(walksdto);

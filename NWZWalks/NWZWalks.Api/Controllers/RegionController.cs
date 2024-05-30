@@ -21,10 +21,10 @@ namespace NWZWalks.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] string? filterOn, [FromQuery] string? filterName, [FromQuery] string? sortByOn, [FromQuery] bool isAscending)
         {
             //get region domain model from database
-            var regions = await regionRepository.GetAllAsync();
+            var regions = await regionRepository.GetAllAsync(filterOn, filterName, sortByOn, isAscending);
 
             //Map Region domain model to region Dtos
             var regionsDto = new List<RegionDtos>();

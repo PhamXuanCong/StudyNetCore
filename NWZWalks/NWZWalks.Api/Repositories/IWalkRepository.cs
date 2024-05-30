@@ -4,7 +4,7 @@ namespace NWZWalks.Api.Repositories
 {
     public interface IWalkRepository
     {
-        Task<List<Walk>> GetAllAsync();
+        Task<List<Walk>> GetAllAsync(string? filterOn , string? filterQuery, string sortBy, bool isAscending, int pageIndex, int pageSize );
         Task<Walk> GetAsync(Guid id);
 
         Task<Walk>Create(Walk walk);

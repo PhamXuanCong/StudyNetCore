@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NWZWalks.Api.Models.Domain;
+using NWZWalks.Api.Models.DTO.Walks;
 
 namespace NWZWalks.Api.Data
 {
@@ -37,21 +38,42 @@ namespace NWZWalks.Api.Data
 
             //modelBuilder.Entity<Region>().HasData(regions);
 
-            var walkDifficulties = new List<WalkDifficulty>()
-            {
+            //var walkDifficulties = new List<WalkDifficulty>()
+            //{
 
-            };
+            //};
+
+            var walks = new List<AddWalkDto>();
 
             for (int i = 0; i < 50; i++)
             {
-                walkDifficulties.Add(new WalkDifficulty()
+                //walkDifficulties.Add(new WalkDifficulty()
+                //{
+                //    Id = Guid.NewGuid(),
+                //    Code = "codeName" + i.ToString()
+                //});
+
+                walks.Add(new AddWalkDto()
                 {
                     Id = Guid.NewGuid(),
-                    Code = "codeName" + i.ToString()
+                    Length = i,
+                    Name = GenerateRandomString(5),
+                    RegionId = Guid.Parse("ED52FCA0-6D0D-421E-046C-08DC73E2EE27"),
+                    WalkDifficultyId = Guid.Parse("9D258237-F3DC-49DC-93E9-03E124C8A90C")
                 });
             }
 
-            modelBuilder.Entity<WalkDifficulty>().HasData(walkDifficulties);
+            modelBuilder.Entity<Walk>().HasData(walks);
         }
+
+        string GenerateRandomString(int length)
+        {
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+            var random = new Random();
+            var randomString = new string(Enumerable.Repeat(chars, length)
+                .Select(s => s[random.Next(s.Length)]).ToArray());
+            return randomString;
+        }
+
     }
 }

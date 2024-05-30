@@ -13,14 +13,32 @@ namespace NWZWalks.Api.Repositories
             this.dbContext = dbContext;
         }
 
-        public async Task<List<Walk>> GetAllAsync()
+        public async Task<List<Walk>> GetAllAsync(string? filterOn , string? filterQuery, string sortBy, bool isAscending, int pageIndex, int pageSize )
         {
-            var walks = await dbContext.Walks.Include("Region").Include("WalkDifficulty").ToListAsync();
+            var walks =  dbContext.Walks.Include("Region").Include("WalkDifficulty").AsQueryable();
 
-            if(walks == null)
-                return null;
+            //filter
+            if (string.IsNullOrWhiteSpace(filterOn) == false && string.IsNullOrWhiteSpace(filterQuery) == false)
+            {
+                if (filterOn.Equals("Name", StringComparison.OrdinalIgnoreCase))
+                {
+                    walks = walks.Where(x => x.Name.Contains(filterQuery));
+                }
+            }
 
-            return  walks;
+            //sort\
+            if (string.IsNullOrWhiteSpace(sortBy) == false )
+            {
+                if (sortBy.Equals("length", StringComparison.OrdinalIgnoreCase))
+                {
+                    walks = isAscending ? walks.OrderBy(x => x.Length) : walks.OrderByDescending(x => x.Length);
+                }
+            }
+
+            //pagination
+            var skipResults = (pageIndex - 1) * pageSize;
+
+            return await walks.Skip(skipResults).Take(pageSize).ToListAsync();
         }
 
         public async Task<Walk> GetAsync(Guid id)
