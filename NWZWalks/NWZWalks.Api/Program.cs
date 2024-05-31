@@ -1,4 +1,7 @@
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using NWZWalks.Api.Data;
 using NWZWalks.Api.Mappers;
 using NWZWalks.Api.Repositories;
@@ -21,6 +24,19 @@ builder.Services.AddScoped<IWalkRepository, WalkRepository>();
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 var app = builder.Build();
 
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+        options.TokenValidationParameters = new TokenValidationParameters()
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+        }
+    );
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

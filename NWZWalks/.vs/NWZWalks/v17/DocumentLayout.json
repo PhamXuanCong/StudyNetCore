@@ -1,30 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\",
+  "WorkspaceRootPath": "D:\\TaiLieuLT\\AspNet\\StudyNetCore\\NWZWalks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|e:\\laptrinh\\aspnetcore\\studynetcore\\nwzwalks\\nwzwalks.api\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|solutionrelative:nwzwalks.api\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|d:\\tailieult\\aspnet\\studynetcore\\nwzwalks\\nwzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|solutionrelative:nwzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\nwzwalks.api\\repositories\\regionrrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|solutionrelative:nwzwalks.api\\repositories\\regionrrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|e:\\laptrinh\\aspnetcore\\studynetcore\\nwzwalks\\nwzwalks.api\\repositories\\walkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|solutionrelative:nwzwalks.api\\repositories\\walkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|e:\\laptrinh\\aspnetcore\\studynetcore\\nwzwalks\\nwzwalks.api\\repositories\\iwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|solutionrelative:nwzwalks.api\\repositories\\iwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|e:\\laptrinh\\aspnetcore\\studynetcore\\nwzwalks\\nwzwalks.api\\repositories\\iregionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|solutionrelative:nwzwalks.api\\repositories\\iregionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|e:\\laptrinh\\aspnetcore\\studynetcore\\nwzwalks\\nwzwalks.api\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|solutionrelative:nwzwalks.api\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|d:\\tailieult\\aspnet\\studynetcore\\nwzwalks\\nwzwalks.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|solutionrelative:nwzwalks.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WalkRepository.cs",
-              "DocumentMoniker": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Repositories\\WalkRepository.cs",
-              "RelativeDocumentMoniker": "NWZWalks.Api\\Repositories\\WalkRepository.cs",
-              "ToolTip": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Repositories\\WalkRepository.cs",
-              "RelativeToolTip": "NWZWalks.Api\\Repositories\\WalkRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAABgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T01:14:32.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IWalkRepository.cs",
-              "DocumentMoniker": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Repositories\\IWalkRepository.cs",
-              "RelativeDocumentMoniker": "NWZWalks.Api\\Repositories\\IWalkRepository.cs",
-              "ToolTip": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Repositories\\IWalkRepository.cs",
-              "RelativeToolTip": "NWZWalks.Api\\Repositories\\IWalkRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T01:13:53.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WalksController.cs",
-              "DocumentMoniker": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Controllers\\WalksController.cs",
-              "RelativeDocumentMoniker": "NWZWalks.Api\\Controllers\\WalksController.cs",
-              "ToolTip": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Controllers\\WalksController.cs",
-              "RelativeToolTip": "NWZWalks.Api\\Controllers\\WalksController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAcwB4AAAARAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TaiLieuLT\\AspNet\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Program.cs",
+              "RelativeDocumentMoniker": "NWZWalks.Api\\Program.cs",
+              "ToolTip": "D:\\TaiLieuLT\\AspNet\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Program.cs",
+              "RelativeToolTip": "NWZWalks.Api\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAEwCQAAABqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T01:12:50.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IRegionRepository.cs",
-              "DocumentMoniker": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Repositories\\IRegionRepository.cs",
-              "RelativeDocumentMoniker": "NWZWalks.Api\\Repositories\\IRegionRepository.cs",
-              "ToolTip": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Repositories\\IRegionRepository.cs",
-              "RelativeToolTip": "NWZWalks.Api\\Repositories\\IRegionRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAByAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T00:50:03.614Z",
+              "WhenOpened": "2024-05-30T23:13:39.129Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RegionrRepository.cs",
-              "DocumentMoniker": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Repositories\\RegionrRepository.cs",
-              "RelativeDocumentMoniker": "NWZWalks.Api\\Repositories\\RegionrRepository.cs",
-              "ToolTip": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Repositories\\RegionrRepository.cs",
-              "RelativeToolTip": "NWZWalks.Api\\Repositories\\RegionrRepository.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAwwDMAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T01:32:51.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RegionController.cs",
-              "DocumentMoniker": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Controllers\\RegionController.cs",
-              "RelativeDocumentMoniker": "NWZWalks.Api\\Controllers\\RegionController.cs",
-              "ToolTip": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Controllers\\RegionController.cs",
-              "RelativeToolTip": "NWZWalks.Api\\Controllers\\RegionController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAtwBoAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T01:32:43.991Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\TaiLieuLT\\AspNet\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "NWZWalks.Api\\appsettings.json",
+              "ToolTip": "D:\\TaiLieuLT\\AspNet\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\appsettings.json",
+              "RelativeToolTip": "NWZWalks.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-30T23:10:06.826Z",
               "EditorCaption": ""
             }
           ]
