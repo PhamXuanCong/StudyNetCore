@@ -682,3 +682,4 @@ E:\LapTrinh\AspNetCore\StudyNetCore\NWZWalks\NWZWalks.Api\obj\Debug\net8.0\refin
 E:\LapTrinh\AspNetCore\StudyNetCore\NWZWalks\NWZWalks.Api\obj\Debug\net8.0\NWZWalks.Api.pdb
 E:\LapTrinh\AspNetCore\StudyNetCore\NWZWalks\NWZWalks.Api\obj\Debug\net8.0\NWZWalks.Api.genruntimeconfig.cache
 E:\LapTrinh\AspNetCore\StudyNetCore\NWZWalks\NWZWalks.Api\obj\Debug\net8.0\ref\NWZWalks.Api.dll
+E:\LapTrinh\AspNetCore\StudyNetCore\NWZWalks\NWZWalks.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
