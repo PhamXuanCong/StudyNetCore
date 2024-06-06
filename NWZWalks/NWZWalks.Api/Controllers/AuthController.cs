@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using NWZWalks.Api.Models.DTO;
+using NWZWalks.Api.Repositories;
 
 namespace NWZWalks.Api.Controllers
 {
@@ -9,10 +10,12 @@ namespace NWZWalks.Api.Controllers
     public class AuthController : ControllerBase
     {
         private readonly UserManager<IdentityUser> _userManager;
+        private readonly ITokenRepository _itokenRepository;
 
-        public AuthController(UserManager<IdentityUser> userManager)
+        public AuthController(UserManager<IdentityUser> userManager, ITokenRepository itokenRepository)
         {
             _userManager = userManager;
+            _itokenRepository = itokenRepository;
         }
 
         [HttpPost]
@@ -53,6 +56,21 @@ namespace NWZWalks.Api.Controllers
             {
                 if (await _userManager.CheckPasswordAsync(user, loginRequestDto.Password))
                 {
+                    var roles = await _userManager.GetRolesAsync(user);
+
+                    if (roles != null)
+                    {
+                        //Craete Token
+                        var jwtToken = _itokenRepository.CraeteJWTToken(user, roles.ToList());
+
+                        var response = new LoginResponseDto
+                        {
+                            JwtToken = jwtToken,
+                        };
+
+                        return Ok(response);
+                    }
+
                     return Ok();
                 }
             }
