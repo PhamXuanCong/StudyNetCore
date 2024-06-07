@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|e:\\laptrinh\\aspnetcore\\studynetcore\\nwzwalks\\nwzwalks.api\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|solutionrelative:nwzwalks.api\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\nwzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|solutionrelative:nwzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|e:\\laptrinh\\aspnetcore\\studynetcore\\nwzwalks\\nwzwalks.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|solutionrelative:nwzwalks.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|e:\\laptrinh\\aspnetcore\\studynetcore\\nwzwalks\\nwzwalks.api\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\nwzwalks.api\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|solutionrelative:nwzwalks.api\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|e:\\laptrinh\\aspnetcore\\studynetcore\\nwzwalks\\nwzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|solutionrelative:nwzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|e:\\laptrinh\\aspnetcore\\studynetcore\\nwzwalks\\nwzwalks.api\\data\\nzwalksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\nwzwalks.api\\data\\nzwalksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DF8E1BA-8721-4261-B78D-F1E0675736B0}|NWZWalks.Api\\NWZWalks.Api.csproj|solutionrelative:nwzwalks.api\\data\\nzwalksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "RegionController.cs",
+              "DocumentMoniker": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Controllers\\RegionController.cs",
+              "RelativeDocumentMoniker": "NWZWalks.Api\\Controllers\\RegionController.cs",
+              "ToolTip": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Controllers\\RegionController.cs",
+              "RelativeToolTip": "NWZWalks.Api\\Controllers\\RegionController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowDsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T01:05:02.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LoginResponseDto.cs",
               "DocumentMoniker": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Models\\DTO\\LoginResponseDto.cs",
               "RelativeDocumentMoniker": "NWZWalks.Api\\Models\\DTO\\LoginResponseDto.cs",
@@ -42,38 +59,37 @@
               "RelativeToolTip": "NWZWalks.Api\\Models\\DTO\\LoginResponseDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T01:15:48.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T01:15:48.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AuthController.cs",
               "DocumentMoniker": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "NWZWalks.Api\\Controllers\\AuthController.cs",
               "ToolTip": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Controllers\\AuthController.cs",
               "RelativeToolTip": "NWZWalks.Api\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAowEYAAAAsAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowCwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T01:13:24.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Program.cs",
               "RelativeDocumentMoniker": "NWZWalks.Api\\Program.cs",
               "ToolTip": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Program.cs",
               "RelativeToolTip": "NWZWalks.Api\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAABAAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAACUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T01:12:28.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "NZWalksDbContext.cs",
               "DocumentMoniker": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\Data\\NZWalksDbContext.cs",
               "RelativeDocumentMoniker": "NWZWalks.Api\\Data\\NZWalksDbContext.cs",
@@ -81,12 +97,11 @@
               "RelativeToolTip": "NWZWalks.Api\\Data\\NZWalksDbContext.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAIwAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T00:57:44.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T00:57:44.792Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\LapTrinh\\AspNetCore\\StudyNetCore\\NWZWalks\\NWZWalks.Api\\appsettings.json",
               "RelativeDocumentMoniker": "NWZWalks.Api\\appsettings.json",
@@ -94,8 +109,7 @@
               "RelativeToolTip": "NWZWalks.Api\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-30T23:10:06.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T23:10:06.826Z"
             }
           ]
         }

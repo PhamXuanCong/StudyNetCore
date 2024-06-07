@@ -46,6 +46,7 @@ namespace NWZWalks.Api.Controllers
 
         [HttpGet]
         [Route("{id:Guid}")]
+        [Authorize(Roles = "Reader")]
         public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
             var region = await regionRepository.GetById(id);
