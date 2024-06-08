@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using System.Data.Entity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using NWZWalks.Api.Models.DTO;
 using NWZWalks.Api.Repositories;
@@ -46,6 +47,7 @@ namespace NWZWalks.Api.Controllers
             return BadRequest("Something was wrong ");
         }
 
+
         [HttpPost]
         [Route("Login")]
         public async Task<IActionResult> Login([FromBody] LoginRequestDto loginRequestDto)
@@ -76,6 +78,14 @@ namespace NWZWalks.Api.Controllers
             }
 
             return BadRequest("Something was wrong ");
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllUsers()
+        {
+            var users = await _userManager.Users.ToListAsync();
+
+            return Ok(users);
         }
     }
 }

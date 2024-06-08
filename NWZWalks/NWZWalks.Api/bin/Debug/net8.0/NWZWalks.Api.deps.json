@@ -9,6 +9,7 @@
       "NWZWalks.Api/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "Azure.Identity": "1.10.3",
           "EntityFramework": "6.4.4",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.6",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.6",
