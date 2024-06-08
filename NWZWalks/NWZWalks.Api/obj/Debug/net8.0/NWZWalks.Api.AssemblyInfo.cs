@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NWZWalks.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27a5b54d91246abe6e7680ac752893b43f46a0f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcf73879494d92f268177ecb9418d5ae1dec95f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("NWZWalks.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NWZWalks.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
