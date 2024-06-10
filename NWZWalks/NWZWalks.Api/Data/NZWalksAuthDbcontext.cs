@@ -28,7 +28,7 @@ namespace NWZWalks.Api.Data
                 }
             };
 
-            builder.Entity<IdentityRole>().HasData(roles);
+            //builder.Entity<IdentityRole>().HasData(roles);
         }
     }
 }

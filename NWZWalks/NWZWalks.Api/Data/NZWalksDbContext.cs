@@ -15,6 +15,7 @@ namespace NWZWalks.Api.Data
 
         public DbSet<Region>? Regions { get; set; }
         public DbSet<Walk>? Walks { get; set; }
+        public DbSet<Image>? Images { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -63,7 +64,7 @@ namespace NWZWalks.Api.Data
                 });
             }
 
-            modelBuilder.Entity<Walk>().HasData(walks);
+            //modelBuilder.Entity<Walk>().HasData(walks);
         }
 
         string GenerateRandomString(int length)

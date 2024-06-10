@@ -1,6 +1,6 @@
-﻿using System.Data.Entity;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using NWZWalks.Api.Models.DTO;
 using NWZWalks.Api.Repositories;
 
