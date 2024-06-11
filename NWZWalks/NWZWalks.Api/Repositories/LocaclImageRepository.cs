@@ -18,8 +18,10 @@ namespace NWZWalks.Api.Repositories
 
         public async Task<Image> Upload(Image image)
         {
-            var localFilePath = Path.Combine(_iWebHostEnvironment.ContentRootPath, "Images", image.FileName,
-                image.FileExtension);
+
+
+            var localFilePath = Path.Combine(_iWebHostEnvironment.ContentRootPath, "Images", $"{image.File.FileName}{image.FileExtension}"
+                );
 
             using var stream = new FileStream(localFilePath, FileMode.Create);
 
@@ -30,10 +32,10 @@ namespace NWZWalks.Api.Repositories
 
             image.FilePath = urlfilePath;
 
-            _dbContext.Images.AddAsync(image);
-            _dbContext.SaveChangesAsync();
+            await _dbContext.Images.AddAsync(image);
+            await _dbContext.SaveChangesAsync();
 
-            return  image;
+            return image;
         }
     }
 }

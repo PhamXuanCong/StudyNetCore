@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <Folder Include="Migrations\NzWalksAuthDbcontextMigrations\" />
+    <Folder Include="Images\" />
   </ItemGroup>
 
 </Project>

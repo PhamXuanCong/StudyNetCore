@@ -29,7 +29,8 @@ namespace NWZWalks.Api.Controllers
                     File = request.File,
                     FileExtension = Path.GetExtension(request.File.FileName),
                     FileSizeBytes = request.File.Length,
-                    FileDescription = request.FileDescription
+                    FileDescription = request.FileDescription,
+                    FileName = request.FileName
                 };
 
                 await _imageRepository.Upload(imageDomainModel);
